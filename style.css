@@ -3,5 +3,301 @@
     margin: 0;
     vertical-align: top;
     box-sizing: border-box;
-    outline: 1px dotted red;
+    /* outline: 1px dotted red; */
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+#wrapper{
+    width: 1000px;
+    padding: 12px;
+}
+
+#pageHeader{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#headerTop{
+    width: 100%;
+    margin-bottom: -5px;
+    display: flex;
+    align-items: center;
+}
+
+#headerImg{
+    width: 11%;
+    z-index: 1;
+    margin-bottom: -17px;
+}
+
+#headerTop h1{
+    width: 80%;
+    padding: 18px 0px 0px 0px;
+    font-size: 48px;
+}
+
+#headerTop h1 .blackText{
+    color: #474747;
+}
+
+#headerTop h1 .blueText{
+    margin-left: -13px;
+    color: #26669C;
+}
+
+#headerBottom{
+    width: 100%;
+    height: 60px;
+    padding: 12px 0 8px 40px;
+    color: white;
+    background-image: linear-gradient(#29689D, #5283AA, #29689D);
+    display: flex;
+    align-items: center;
+}
+
+#headerBottom h2{
+    font-size: 26px;
+    font-weight: 400;
+}
+
+#midSectionContainer{
+    width: 100%;
+    display: flex;
+}
+
+#sideBarContainer{
+    width: 22%;
+    padding: 0px 0px 0px 6px;
+}
+
+#sideBarTop{
+    width: 100%;
+    padding: 18px 11px 25px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+#sideBarTopUpper{
+    width: 100%;
+    padding: 10px 0px 0px 0px;
+    margin-bottom: 25px;
+}
+
+#sideBarTopUpper h4{
+    font-size: 14px;
+    margin: 0px 0px 16px 0px;
+}
+
+#sideBarTopUpper h4 .barBlackText{
+
+}
+
+#sideBarTopUpper h4 .barRedText{
+    color: #D72828;
+}
+
+#sideBarTopPara{
+    font-size: 12px;
+    font-weight: 700;
+    padding: 0px 16px 0px 0px;
+}
+
+#sideBarTopPara .bluePara{
+    color: #26669C;
+}
+
+#sideBarTopLower{
+    width: 100%;
+}
+
+.sideBarBtns{
+    width: 100%;
+    height: 36px;
+    border-radius: 5px;
+    margin-bottom: 4px;
+    color: #FEFEFF;
+    font-weight: 700;
+
+}
+
+#videoBtn{
+    background-image: linear-gradient(#6498C1, #27679D);
+}
+
+#resourcesBtn{
+    background-image: linear-gradient(#E9AC5D, #EE7403);
+}
+
+#sideBarBottom{
+    width: 100%;
+    border-top: 2px solid #B4B4B4;
+}
+
+#sideBarBottomBoxContainer{
+    width: 100%;
+    margin-top: 28px;
+    padding: 25px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./assets/ad_background.png);
+    color: #FFFFFF;
+}
+
+.sideBarBottomPara{
+    width: 90%;
+    font-size: 24px;
+    margin-bottom: 2px;
+    padding: 0px 8px 0px 8px;
+    text-align: center;
+}
+
+#sideBarBottomBoxContainer #ninjaImg{
+    width: 44%;
+}
+
+#learnMoreBtn{
+    width: 87%;
+    height: 34px;
+    margin: 20px 0px 32px 0px;
+}
+
+#mainContent{
+    width: 80%;
+    padding-left: 30px;
+}
+
+#contentHeader{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #BABABA;
+}
+
+#contentHeaderLeft{
+    width: 15%; 
+    margin-top: 10px;   
+}
+
+#homeLink{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    font-size: 13px;
+}
+
+#homeImg{
+    width: 21%;
+}
+
+#contentHeaderRight{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+#phoneIcon{
+    width: 41px;
+    height: 41px;
+    margin: 10px;
+}
+
+#contactBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.smallText{
+    font-size: 8px;
+    padding-left: 6px;
+    color: #585858;
+}
+
+.largeText{
+    font-size: 18px;
+    font-weight: 600;
+    color: #00C0DD;
+}
+
+#contentTop{
+    width: 100%;
+    margin: 10px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contentTopUpper{
+    width: 100%;
+    margin: 10px 0px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contentSubHeadings{
+    width: 100%;
+    color: #346FA2;
+}
+
+.topUpperPara{
+    width: 100%;
+    margin: 7px 0px 7px 0px;
+    font-size: 12px;
+}
+
+#topUpperList{
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 0px 25px;
+    margin: 0px 0px 0px 0px;
+}
+
+#topUpperList li{
+    font-size: 14px;
+    margin: 0px 0px 11px 0px;
+}
+
+.contentBlueText{
+    color: #25A6B8;
+}
+
+#clientServerImg{
+    width: 45%;
+    margin-top: 10px;
+}
+
+#contentBotom{
+    width: 100%;
+
+}
+
+#contentBottom .contentSubHeadings{
+    width: 100%;
+    margin: 0px 0px 0px 1px;
+}
+
+#bottomList{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+}
+
+.bottomListItems{
+    width: 88%;
+}
+
+footer{
+    width: 100%;
+}
+
+.bottomImg{
+    width: 25%;
 }
